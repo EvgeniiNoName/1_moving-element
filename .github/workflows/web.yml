@@ -1,4 +1,4 @@
-name: Netology AHJ
+name: 1_moving_element
 
 on: [push, pull_request]
 
