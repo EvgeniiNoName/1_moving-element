@@ -24,9 +24,9 @@ class GoblinGame {
     const randomPos = this.randomPosition();
     let getHole = document.getElementById(`id${randomPos}`);
     getHole.classList.add('hole_has-mole');
-    const intervalId = setInterval(() => {
+    setInterval(() => {
       this.moveGoblin();
-    }, 10000);
+    }, 100);
 
   }
 
