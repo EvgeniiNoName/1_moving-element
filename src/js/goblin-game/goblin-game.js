@@ -1,3 +1,5 @@
+import './goblin-game.css'
+
 export { GoblinGame };
 
 class GoblinGame {
@@ -26,7 +28,7 @@ class GoblinGame {
     getHole.classList.add('hole_has-mole');
     setInterval(() => {
       this.moveGoblin();
-    }, 100);
+    }, 1000);
 
   }
 
